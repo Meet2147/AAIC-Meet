@@ -19,4 +19,5 @@ CMD python3 aaic.py
 ```docker run -ti python-quiz```
 ## Docker image 
 Use this [https://hub.docker.com/repository/docker/mdockj/aaic-quiz]
-
+## Pull the docker image using following command
+```docker pull mdockj/aaic-quiz```
