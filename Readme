@@ -1,0 +1,8 @@
+The assignment tested my skills in python and also python with json files.Initially i made some changes to the quiz.json
+but then figured out a way to use the original file itself.
+Once the python code was ready creating a Dockerfile and building image and testing the code on the docker image was easy
+initially but while testing the code I faced "EOFError: EOF when reading a line". So then figured out that we need to run
+the image using docker run -ti image.
+Please Consider my dedication because i dont like to keep things pending to another day.
+Happy to work on it.
+Will be happy to work with you further.

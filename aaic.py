@@ -1,8 +1,7 @@
 import json 
-import time
+
 import random
-# f = open('quiz.json')
-# response = json.load(f)
+
 
 
 def sport():
