@@ -1,8 +1,11 @@
 # AAIC-Python-Quiz
 Simple quiz app to run on command line displays options for the user to select and then asks questions 
 according to the selection and displays the score finally.
+## Running the quiz app
+```python3 aaic.py```
 ## _quiz.json_
-The file is a static file with only two groups Sport and Maths.
+The file is a static file with only two groups Sport and Maths.Can make changes to the file
+or add our own file.
 ## Dockerfile
 ```
 FROM python:3.7
