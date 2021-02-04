@@ -9,7 +9,7 @@ def question():
 		print("Sports Selected")
 		with open("quiz.json", "r+") as f:
 			j = json.load(f)["quiz"]["sport"]
-			for i in range(len(j)):
+			for i in range(1):
 				no_of_questions = len(j)
 
 				ch = random.randint(0, no_of_questions)
