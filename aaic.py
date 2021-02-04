@@ -12,7 +12,7 @@ def question():
 			for i in range(len(j)):
 				no_of_questions = len(j)
 
-				ch = random.randint(0, no_of_questions+1)
+				ch = random.randint(0, no_of_questions)
 				print(f'\nQ{i + 1}) {j[list(j.keys())[ch]]["question"]}\n')
 				for option in j[list(j.keys())[ch]]["options"]:
 					print(option)
