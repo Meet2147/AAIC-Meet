@@ -18,5 +18,5 @@ CMD python3 aaic.py
 ## Running docker image 
 ```docker run -ti python-quiz```
 ## Docker image 
-Use this [https://hub.docker.com/repository/docker/mdockj/python-quiz][1]
+Use this [https://hub.docker.com/repository/docker/mdockj/aaic-quiz][1]
 
