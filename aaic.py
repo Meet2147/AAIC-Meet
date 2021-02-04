@@ -109,11 +109,7 @@ if __name__ == "__main__":
 		if choice == 1:
 			question()
 			break
-		elif choice == 3:
-			print("Have a great day")
-			break
-		else:
-			print('WRONG INPUT. ENTER THE CHOICE AGAIN')
+
 
 
 
