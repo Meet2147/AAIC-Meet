@@ -44,6 +44,8 @@ def question():
 				del j[list(j.keys())[ch]]
 			print(f'\nFINAL SCORE: {score}')
 	elif choice == 3:
+		print("Sorry no Questions for selected topic")
+	elif choice == 4:
 		print("Bye! Have a great day")
 	else:
 		print("Invalid Input! Please Try again")
@@ -103,7 +105,8 @@ if __name__ == "__main__":
 		print('----------Developer: MEET JETHWA----------')
 		print('1. Sport')
 		print('2. Math')
-		print('3. Exit')
+		print('3. History')
+		print('4. Exit')
 		
 
 		if choice == 1:
