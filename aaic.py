@@ -19,8 +19,6 @@ def question(cat, j):
 		del j[list(j.keys())[ch]]
 	print(f'\nFINAL SCORE: {score}')
 
-
-
 if __name__ == "__main__":
 	with open('quiz.json', 'r+') as f:
 		j = json.load(f)['quiz']
